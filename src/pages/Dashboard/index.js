@@ -69,13 +69,10 @@ function Dashboard({ isFocused }) {
     try {
       setLoading(true);
       await api.post(`meetups/${id}/subscriptions`);
-      Alert.alert(
-        'Inscrito com sucesso',
-        'Sua inscrição foi realizada com sucesso'
-      );
+      Alert.alert('Parabens', 'Inscrito com sucesso :)');
     } catch (error) {
       const message = String(error.response.data.message);
-      Alert.alert('Ops!', message);
+      Alert.alert('Opa, algo de errado!', message);
     } finally {
       setLoading(false);
     }

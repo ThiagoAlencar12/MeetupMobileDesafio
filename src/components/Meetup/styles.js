@@ -14,10 +14,10 @@ export const Container = styled.View`
 export const Banner = styled.Image.attrs({
   resizeMode: 'cover',
 })`
+  aspect-ratio: ${props => props.ratio};
   width: 100%;
-  height: 170px;
+  height: 180px;
   align-content: stretch;
-  border-radius: 4px;
   margin-bottom: 20px;
 `;
 

@@ -36,7 +36,7 @@ export function* signUp({ payload }) {
       email,
       password,
     });
-
+    Alert.alert('Cadastrado :) ', 'Cadastrado com sucesso');
     yield put(signUpSuccess());
   } catch (error) {
     const message = String(error.response.data.message);

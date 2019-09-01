@@ -25,10 +25,9 @@ export default function Meetup({ data, handleSubmit, loading }) {
   return (
     <Container>
       <Banner
+        ratio={0.834}
         source={{
-          uri: data.banner
-            ? data.banner.url
-            : `https://api.adorable.io/avatars/50/${data.User.name}.png`,
+          uri: data.banner.url,
         }}
       />
 
@@ -54,7 +53,7 @@ export default function Meetup({ data, handleSubmit, loading }) {
           <Icon name="check-circle" size={16} color="#2E8A36" />
         </DoneWrapper>
       ) : (
-        <SubmitButton loading={loading} onPress={handleSubmit} past={data.past}>
+        <SubmitButton loading={loading} onPress={handleSubmit}>
           Realizar inscrição
         </SubmitButton>
       )}
