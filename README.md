@@ -3,7 +3,7 @@
 Nesse desafio foi construído o app mobile com React Native do Meetapp. O aplicativo acessa a API desenvolvida durante os desafios do segundo e terceiro módulo de Node.js que você encontra logo abaixo:
 
 ```
-https://github.com/marciofrancalima/bootcamp-gostack-challenge03/
+https://github.com/ThiagoAlencar12/MeetupApiDesafio
 ```
 
 Construída do zero, foi iniciada com React Native CLI e configurada com as ferramentas de padrões de código, Reactotron, Redux e Redux Saga.
@@ -44,4 +44,4 @@ Utilize validação nos campos.
 
 ---
 
-Made with ♥ by Márcio França Lima. [Contact me](https://www.linkedin.com/in/m%C3%A1rcio-fran%C3%A7a-lima-916454187/)
+Made with ♥ by Thiago Alencar. [Contact me](https://www.linkedin.com/in/thiagoalencardev/)
